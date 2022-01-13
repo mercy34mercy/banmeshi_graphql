@@ -19,6 +19,7 @@ type Todo {
 	recipeId: String!
 	recipeMaterial: String!
 	recipeTitle: String!
+	recipeUrl:String!
 	smallImageUrl: String!
 }
 
@@ -29,6 +30,7 @@ type User {
 
 type Query {
   todos: [Todo!]!
+  random_recipes: [random_recipe!]!
 }
 
 input NewTodo {

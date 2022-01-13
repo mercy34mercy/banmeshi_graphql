@@ -8,5 +8,6 @@ type sqlimage struct {
 	recipeId string `db:"recipeId"`
 	recipeMaterial string `db:"recipeMaterial"`
 	recipeTitle string `db:"recipeTitle"`
+	recipeUrl string `db:"recipeUrl"`
 	smallImageUrl string `db:"smallImageUrl"`
 }

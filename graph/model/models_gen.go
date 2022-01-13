@@ -14,6 +14,7 @@ type Todo struct {
 	RecipeID       string `json:"recipeId"`
 	RecipeMaterial string `json:"recipeMaterial"`
 	RecipeTitle    string `json:"recipeTitle"`
+	RecipeURL      string `json:"recipeUrl"`
 	SmallImageURL  string `json:"smallImageUrl"`
 }
 
